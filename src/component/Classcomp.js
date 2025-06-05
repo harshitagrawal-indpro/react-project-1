@@ -4,7 +4,7 @@ class Classcomp extends Component{
     render(){
         return (
             <div>
-                <h1>Classcomp</h1>
+                <h1 style={{color:"red"}}>Classcomp</h1>
             </div>
         )
     }

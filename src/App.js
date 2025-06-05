@@ -1,10 +1,12 @@
-import Header from "./component/header"; 
+import Classcomp from "./component/Classcomp";
 import { Nav } from "./component/Nav";
+import Navigate from "./component/Navigate";
 function App(){
   return (
     <div>
-      <Header/>
+      <Navigate/>
       <Nav></Nav>
+      <Classcomp></Classcomp>
     </div>
   )
 }
